@@ -1,6 +1,6 @@
 # StopWatch
 
-A simple stopwatch web application developed by [Amrit Karki](https://www.linkedin.com/in/amritkarkii001/).
+A simple web-stopwatch developed by [Amrit Karki](https://www.linkedin.com/in/amritkarkii001/).
 
 ## Project Information
 
