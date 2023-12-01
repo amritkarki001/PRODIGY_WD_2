@@ -62,14 +62,4 @@ function updateDateTime() {
 }
 
 setInterval(updateDateTime, 1000);
-updateDateTime(); // Initial call to display the date and time immediatelydocument.addEventListener("DOMContentLoaded", function () {
-var loaderWrapper = document.querySelector(".loader-wrapper");
-var content = document.querySelector(".content");
-
-setTimeout(function() {
-loaderWrapper.style.visibility = "hidden";
-loaderWrapper.style.opacity = 0;
-content.style.visibility = "visible";
-content.style.opacity = 1;
-}, 2000); // Adjust the timeout value based on your actual loading time
-});
+updateDateTime(); // Initial call to display the date and time immediately
