@@ -55,9 +55,14 @@ function reset() {
     updateDisplay();
 }
 
+// Create updateDateTime function
 function updateDateTime() {
+    // Get current date and time
     const dateTime = new Date();
+
+    // Get the HTML element with the ID 'datetime'
     const datetimeDisplay = document.getElementById('datetime');
+    getElementById('datetime');
     datetimeDisplay.textContent = dateTime.toLocaleString();
 }
 
