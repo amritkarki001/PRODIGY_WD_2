@@ -1,4 +1,4 @@
-body {
+    body {
     background-color: #000;
     display: flex;
     align-items: center;
@@ -63,45 +63,21 @@ button:hover {
 
 button {
     border: 30px;
-    /* Remove the default border */
     outline: none;
-    /* Remove the default outline */
     cursor: pointer;
-    /* Change the cursor to a pointer */
     width: 100px;
-    /* Set a fixed width */
     height: 50px;
-    /* Set a fixed height */
     font-size: 18px;
-    /* Use a medium font size */
     font-weight: bold;
-    /* Use a bold font weight */
     color: white;
-    /* Use a light text color */
     background-color: transparent;
-    /* Use a transparent background color */
-    margin: 10px;
-    /* Add some space around the button */
-    border-radius: 25px;
-    /* Make the button rounded */
     box-shadow: inset 0 0 10px white, inset 0 0 20px white, inset 0 0 30px white, inset 0 0 40px cyan, inset 0 0 70px cyan, inset 0 0 80px cyan, inset 0 0 100px cyan, inset 0 0 150px cyan;
-    /* Add a neon inset effect */
     transition: 0.5s;
-    /* Add a smooth transition effect */
-}
-
-
-/* Change the button style on hover */
-
-button:hover {
-    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px cyan, 0 0 70px cyan, 0 0 80px cyan, 0 0 100px cyan, 0 0 150px cyan;
-    /* Add a neon outset effect */
-}
-
-
-/* Change the button style on click */
-
-button:active {
-    box-shadow: inset 0 0 10px white, inset 0 0 20px white, inset 0 0 30px white, inset 0 0 40px cyan, inset 0 0 70px cyan, inset 0 0 80px cyan, inset 0 0 100px cyan, inset 0 0 150px cyan;
-    /* Restore the neon inset effect */
-}
+    /* Change the button style on hover */
+    button:hover {
+        box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px cyan, 0 0 70px cyan, 0 0 80px cyan, 0 0 100px cyan, 0 0 150px cyan;
+    }
+    /* Change the button style on click */
+    button:active {
+        box-shadow: inset 0 0 10px white, inset 0 0 20px white, inset 0 0 30px white, inset 0 0 40px cyan, inset 0 0 70px cyan, inset 0 0 80px cyan, inset 0 0 100px cyan, inset 0 0 150px cyan;
+    }
