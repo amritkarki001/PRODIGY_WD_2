@@ -80,7 +80,3 @@ button {
 button:hover {
     box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px cyan, 0 0 70px cyan, 0 0 80px cyan, 0 0 100px cyan, 0 0 150px cyan;
 }
-
-button:active {
-    box-shadow: inset 0 0 10px white, inset 0 0 20px white, inset 0 0 30px white, inset 0 0 40px cyan, inset 0 0 70px cyan, inset 0 0 80px cyan, inset 0 0 100px cyan, inset 0 0 150px cyan;
-}
