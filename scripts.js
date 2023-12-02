@@ -55,16 +55,30 @@ function reset() {
     updateDisplay();
 }
 
-// Create updateDateTime function
 function updateDateTime() {
     // Get current date and time
-    const dateTime = new Date();
+    const currentDate = new Date();
 
-    // Get the HTML element with the ID 'datetime'
-    const datetimeDisplay = document.getElementById('datetime');
-    getElementById('datetime');
-    datetimeDisplay.textContent = dateTime.toLocaleString();
+    // Format the date and time
+    const options = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+        timeZoneName: 'short'
+    };
+
+    const formattedDateTime = currentDate.toLocaleString('en-US', options);
+
+    // Update the HTML element with the formatted date and time
+    document.getElementById('dateTime').innerHTML = formattedDateTime;
 }
 
+// Update date and time every second
 setInterval(updateDateTime, 1000);
-updateDateTime(); // Initial call to display the date and time immediately
+
+// Initial call to display date and time immediately
+updateDateTime();

@@ -9,8 +9,7 @@ A simple web-stopwatch developed by [Amrit Karki](https://www.linkedin.com/in/am
 - **Project Submission:** Submitted to Prodigy Info Tech
 - **Role:** Web Development Intern
 - **Copyright:** © 2023 Amrit Karki. All Rights Reserved.
-  Unauthorized copying or reproduction of this file, in part or whole,
-  without express permission from the copyright owner is prohibited.
+  Unauthorized copying or reproduction of this file without permission  is prohibited.
 
 ## Description
 
