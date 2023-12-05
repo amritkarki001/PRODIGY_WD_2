@@ -13,11 +13,9 @@ A simple web-stopwatch developed by [Amrit Karki](https://www.linkedin.com/in/am
 
 ## Description
 
-This project is a web-based stopwatch. It provides date and real-time clock information and allows users to start, stop, reset the stopwatch.
+This project is a web-based stopwatch. It allows users to start, stop, reset the stopwatch.
 
 ## Features
-
-- Real-time Clock Display
 - Stopwatch Functionality
 
 ## Technologies Used
