@@ -3,26 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon Stopwatch</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    <style>
+
+    </style>
 </head>
 
 <body>
-
     <div id="stopwatch-container">
+        <h1>Lap Stopwatch</h1>
+        <div id="timer">00:00:00</div>
+        <button id="start" onclick="start()">Start</button>
+        <button id="lap" onclick="recordLap()">Lap</button>
+        <button id="stop" onclick="stop()">Stop</button>
 
-        <h1>Stopwatch</h1>
+        <button id="reset" onclick="reset()">Reset</button>
+        <div id="datetime"></div>
+        <ul id="lapList"></ul>
+    </div>
 
-        <div id="stopwatch">00:00:00<span id="milliseconds">:000</span></div>
-        <div id="controls">
-
-            <button onclick="start()">Start</button>
-            <button onclick="stop()">Stop</button>
-            <button onclick="reset()">Reset</button>
-
-            <script src="scripts.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
