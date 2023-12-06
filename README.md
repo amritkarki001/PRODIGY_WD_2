@@ -13,7 +13,7 @@ A simple web-stopwatch developed by [Amrit Karki](https://www.linkedin.com/in/am
 
 ## Description
 
-This project is a web-based stopwatch. It allows users to start, stop, reset the stopwatch.
+This project is a web-based stopwatch. It allows users to start,record lap, stop and reset   the stopwatch.
 
 ## Features
 - Stopwatch Functionality
@@ -28,7 +28,8 @@ This project is a web-based stopwatch. It allows users to start, stop, reset the
 
 1. Open `index.html` in a web browser.
 2. Use the "Start/Stop" button to control the stopwatch.
-3. Click the "Reset" button to reset the stopwatch.
+3. Click the "Lap" button to record the lap.
+4. Click the "Reset" button to reset the stopwatch.
 
 ## Credits
 
